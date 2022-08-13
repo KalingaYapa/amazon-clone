@@ -9,7 +9,12 @@ class NavBar extends Component {
     render() { 
         return ( 
             <div className='navbar_component'> 
-                Navigation Bar 
+                <div className='navbar_logo'></div>
+                <div className='navbar_locator'>
+                <div className='navbar_location_image'></div>
+                <div className='navbar_location'> Sri Lanka</div>
+                </div>
+                
             </div> 
            );
     }

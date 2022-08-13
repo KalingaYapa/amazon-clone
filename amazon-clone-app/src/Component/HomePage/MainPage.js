@@ -7,7 +7,9 @@ class MainPage extends Component {
     }
     state = {  }
     render() { 
-        return ( <div>Main Page</div>  );
+        return ( <div className='mainpage_component'>
+            Main Page
+            </div>  );
     }
 }
  
