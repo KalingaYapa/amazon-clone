@@ -28,3 +28,47 @@
 	width: 19px;
 	height: 22px;
 }
+
+.navbar_search {
+    display: flex;
+}
+
+.navbar_dropdown {
+    height: 35px;
+}
+
+.navbar_select {
+    height: 40px;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 8px;
+    text-align: center;
+    background-color: #F3F3F3;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.navbar_textbox {
+
+}
+
+.navbar_input {
+    height: 35px;
+    width: 640px;
+    margin-top: 8px;
+}
+
+.navbar_search_icon_div{
+    width: 41px;
+    height: 41px;
+    background-color: #FEBD69;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
+}
+
+.navbar_search_icon {
+    background: url('https://ik.imagekit.io/amazonkkcpy/amazon-image/sprite_350x_AIsu_BoWK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660417956956') no-repeat -9px -289px;
+    height: 23px;
+    width: 23px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
