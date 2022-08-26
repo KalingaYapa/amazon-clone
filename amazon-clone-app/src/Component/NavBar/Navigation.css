@@ -34,7 +34,8 @@
 }
 
 .navbar_dropdown {
-    height: 35px;
+    height: 60px;
+    width: 78px;
 }
 
 .navbar_select {
@@ -47,12 +48,8 @@
     border-radius: 5px 0px 0px 5px;
 }
 
-.navbar_textbox {
-
-}
-
 .navbar_input {
-    height: 35px;
+    height: 34px;
     width: 640px;
     margin-top: 8px;
 }
@@ -71,4 +68,39 @@
     width: 23px;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.navbar_sign_in {
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.navbar_return_orders {
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.navbar_cart {
+   display:flex;
+   width: 120px;
+   margin-top: 14px;
+}
+
+.navbar_cart_image {
+    background: url('https://ik.imagekit.io/amazonkkcpy/amazon-image/sprite_350x_AIsu_BoWK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660417956956') no-repeat -217px -336px;
+	width: 43px;
+	height: 30px;
+}
+
+.navbar_cart_item {
+    font-weight: 400;
+    position: relative;
+    left: -21px;
+    top: -3px;
+    color: #F08804;
+}
+
+.navbar_text {
+    color: white;
 }
